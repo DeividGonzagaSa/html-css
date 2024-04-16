@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>exemplo de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <!--tag Checked para quando você quiser que ja venha marcado por exemplo se eu quiser que basquete ja venha marcado eu coloco a tag checked depois da tag ID (não pode colocar 2 checked caso o seu input seja do type RADIO) todo button de radio do mesmo grupo deve ter o mesmo NAME com IDS diferentes-->
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexmas"><label for="isexmas">Masculino:</label>
+            <input type="radio" name="sexo" id="isexfem"><label for="isexfem">Feminino:</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esports Fav's</legend>
+            <input type="checkbox" name="esbas" id="iesbas">Basquete <br>
+            <input type="checkbox" name="esbas" id="iesfut">Futebol <br>
+            <input type="checkbox" name="esbas" id="iesnat"><label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esbas" id="iesten"><label for="iesten">Tênis</label> <br>
+        </fieldset>
+
+
+
+
+
+
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="EXCLUIR">
+        </p>
+    </form>
+</body>
+</html>
