@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body { 
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+header { 
+    text-align: center;
+    color: white;
+}
+
+img#perfil { 
+    border-radius: 60%;
+    border: 3px solid lightgreen;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+abbr { 
+    text-decoration: underline aqua;
+    
+}
+
+footer { 
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
+a { 
+    color: aqua;
+    text-decoration: none;
+    padding: 0px; 
+}
+
+a:hover { 
+    color: darkblue;
+}
+
+footer img { 
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+}
+
